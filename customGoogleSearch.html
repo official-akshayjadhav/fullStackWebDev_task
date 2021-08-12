@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>form basics</title>
+        <base url="example.com" />
+        <meta name="author" content="akshay jadhav" />
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form action="https://www.google.com/search" method="get">
+            <label>search your data</label>
+            <input type="text" name="q" required disabled />
+            <label>enter age</label>
+            <input
+                type="number"
+                step="10"
+                placeholder="enter valid age"
+                min="18"
+                max="80"
+                autofocus
+            />
+
+            <input type="submit" />
+        </form>
+        <button>submit</button>
+    </body>
+</html>
