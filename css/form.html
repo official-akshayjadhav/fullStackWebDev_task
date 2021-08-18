@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>student reg. form</title>
+        <link href="formCss.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Enter Details</legend>
+                <div class="mainDiv">
+                    <div class="labelDiv">
+                        <label> Student's name </label>
+                    </div>
+                    <div class="inputDiv">
+                        <input
+                            type="text"
+                            class="inputField"
+                            name="student name"
+                        />
+                    </div>
+                    <div class="labelDiv">
+                        <label> Father's name </label>
+                    </div>
+                    <div class="inputDiv">
+                        <input
+                            type="text"
+                            class="inputField"
+                            name="father name"
+                        />
+                    </div>
+                    <div class="labelDiv">
+                        <label> Date of birth </label>
+                    </div>
+                    <div class="inputDiv">
+                        <input
+                            type="date"
+                            name="date of birth"
+                            class="inputField"
+                        />
+                    </div>
+                    <div class="labelDiv">
+                        <label> Gender </label>
+                    </div>
+                    <div class="inputDiv">
+                        <input type="radio" name="gender" /><label>
+                            Male
+                        </label>
+                        <input type="radio" name="gender" />
+                        <label> Female </label>
+                    </div>
+
+                    <div class="labelDiv">
+                        <label> Course applied </label>
+                    </div>
+                    <div class="inputDiv">
+                        <select class="inputField">
+                            <option>HTML Basics</option>
+                            <option>HTML Advanced</option>
+                            <option>HTML + CSS</option>
+                        </select>
+                    </div>
+                    <div class="labelDiv">
+                        <label> Mobile no </label>
+                    </div>
+                    <div class="inputDiv">
+                        <input type="text" name="mobile" class="inputField" />
+                    </div>
+                    <div class="labelDiv">
+                        <label> Email id </label>
+                    </div>
+                    <div class="inputDiv">
+                        <input type="email" name="email" class="inputField" />
+                    </div>
+                </div>
+                <div class="mainDiv">
+                    <div style="width: 100%">
+                        <div
+                            style="
+                                width: 150px;
+                                height: 150px;
+                                border: 1px solid red;
+                                margin-bottom: 20px;
+                                margin: auto;
+                            "
+                        ></div>
+                        <div
+                            style="
+                                width: 100%;
+                                margin-top: 7px;
+                                margin-left: 40%;
+                            "
+                        >
+                            <button
+                                type="file"
+                                name="image"
+                                style="width: 150px; padding: 5px"
+                            >
+                                UPload Image...
+                            </button>
+                        </div>
+                    </div>
+
+                    <br />
+                    <div
+                        style="
+                            margin-top: 40px;
+                            margin-bottom: 20px;
+                            width: 100%;
+                        "
+                    >
+                        <label> Address: </label>
+                        <br />
+                        <textarea
+                            rows="7"
+                            cols="100"
+                            style="border: 1px solid red; margin-top: 5px"
+                        >
+                        </textarea>
+                    </div>
+                    <div style="float: right">
+                        <input
+                            type="submit"
+                            value="Submit"
+                            style="background-color: #c0ffff; height: 30px"
+                        />
+                        <button style="background-color: #ffc0ff; height: 30px">
+                            Reset
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset></fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+fieldset {
+    border: 1px solid red;
+}
+legend {
+    color: red;
+    font-size: large;
+}
+.mainDiv {
+    width: 50%;
+    float: left;
+}
+
+.labelDiv {
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.inputDiv {
+    width: 75%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    width: 50%;
+    height: 25px;
+    border: 1px solid red;
+}

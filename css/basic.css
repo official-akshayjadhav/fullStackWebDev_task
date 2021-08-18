@@ -1,0 +1,26 @@
+* {
+    background-color: aqua;
+}
+
+/* heding CSS */
+h1,
+h2,
+h3 {
+    color: blue;
+    border: 1px solid red;
+}
+h1 {
+    background-color: yellow;
+}
+
+#h1Id {
+    color: red;
+}
+
+.h1class {
+    color: yellow;
+}
+
+/* image CSS */
+
+
